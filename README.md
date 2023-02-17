@@ -9,7 +9,7 @@ UPDATE: Help menu is implemented, accessible using -h, --help, or -help options
 
 UPDATE: The password has parameters that require upper case, lower case, and numeric characters as well as a minimum length of 8 characters (which can easily be extended to increase the effectiveness of user passwords against a brute force hacking attempt).
 
-If the password is not succesfully created, then the user and its corresponding home directory are automatically deleted and the script exits.
+If the password is not succesfully created, then the user and its corresponding home directory are automatically deleted and the script exits. This is to enforce the password strength parameters and avoid any stray users without passwords floating around in your system.
 
 Hopefully, I can develop this script to the point where it is a useful tool for Linux administrators to easily create new users with home directories and passwords.
 
