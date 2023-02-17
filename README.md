@@ -5,6 +5,10 @@ On a mission to learn BASH, I wrote this script. It is a program that creates a 
 
 This script has to be run with the sudo command by a user with admin privileges and I will continue to build it out as I learn more and more BASH. I am currently working on adding a help menu and more text instruction throughout the script. 
 
+UPDATE: Help menu is implemented, accessible using -h, --help, or -help options
+
+UPDATE: The password has parameters that require upper case, lower case, and numeric characters as well as a minimum length of 8 characters (which can easily be extended to increase the effectiveness of user passwords against a brute force hacking attempt).
+
 Hopefully, I can develop this script to the point where it is a useful tool for Linux administrators to easily create new users with home directories and passwords.
 
 I have found Joe Collins of Ezee Linux to be a fantastic teacher of this subject https://www.youtube.com/watch?v=WCm0GuiBDKo 
